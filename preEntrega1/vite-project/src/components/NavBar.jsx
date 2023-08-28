@@ -1,30 +1,31 @@
 import React from 'react';
-import CartWidget from '../CartWidget/CartWidget';
+import CartWidget from './CartWidget';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand ms-3" href="#">ReactTech Hub</a>
+                <Link className="navbar-brand ms-3" to="/">ReactTech Hub</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active me-3" aria-current="page" href="#">Inicio</a>
+                            <Link className="nav-link active me-3" to="/#">Inicio</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-3" href="#">Smartphones</a>
+                            <Link className="nav-link me-3" to="/category/Smartphones">Smartphones</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-3" href="#">Computadoras</a> 
+                            <Link className="nav-link me-3" to="/category/Notebooks">Notebooks</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-3" href="#">Audio y Video</a> 
+                            <Link className="nav-link me-3" to="/category/Televisores">Televisores</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link me-3" href="#">Ofertas Especiales</a> 
+                            <Link className="nav-link me-3" to="/category/Ofertas">Ofertas Especiales</Link>
                         </li>
                     </ul>
                 </div>
@@ -36,6 +37,7 @@ const NavBar = () => {
     );
 };
 
-
-
 export default NavBar;
+
+
+
