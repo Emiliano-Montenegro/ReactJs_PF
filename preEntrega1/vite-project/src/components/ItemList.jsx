@@ -18,7 +18,7 @@ const ItemList = ({ items, isLoading }) => {
                                 src={item.imageUrl}
                                 className="card-img-top img-fluid"
                                 alt={item.name}
-                                style={{ objectFit: "contain", maxHeight: "80px" }}
+                                style={{ objectFit: "contain", maxHeight: "140px" }}
                             />
                             <div className="card-body">
                                 <h4 className="card-title">{item.name}</h4>
