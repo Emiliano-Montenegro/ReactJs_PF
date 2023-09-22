@@ -1,0 +1,27 @@
+.controls {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-controls {
+    width: 30px;
+    height: 30px;
+    border: solid 1px #ccc;
+    box-shadow: 2px 2px 4px #ccc;;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+.btn-controls:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.number {
+    color: black;
+    font-size: 1rem;
+}

@@ -1,0 +1,151 @@
+.h2-cart {
+    padding: .2em;
+    text-align: center;
+}
+
+.img-cart {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: solid 1px white;
+    box-shadow: 2px 2px 4px #ccc;
+}
+
+.li-cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: solid 1px white;
+    box-shadow: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.name-cart {
+    display: flex;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1.5rem;
+}
+
+.price-cart {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;    
+        margin-top: 30px;
+        margin-bottom: 15px;
+}
+
+.cant-cart {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.delete-icon {
+    margin: auto;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+.delete-icon:hover {
+    color: black;
+}
+
+.empty-cart-p {
+    text-align: center;
+    padding: .5em;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: gainsboro;
+}
+
+.empty-cart-btn {
+    display: flex;
+    padding: .3em;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 50px;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.empty-cart-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.vaciar-cart {
+    padding: .3em;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-left: 350px;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.comprar-cart {
+    padding: .3em;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.ver-mas-cart{
+    padding: .3em;
+    font-size: 1.3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    border: solid 1px black;
+    box-shadow: 2px 2px 4px #ccc;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.vaciar-cart:hover {
+    background-color:black;
+    color: white;
+} 
+
+.comprar-cart:hover {
+    background-color:black;
+    color: white;
+}
+
+.ver-mas-cart:hover{
+    background-color:black;
+    color: white;
+}
+
+.cart-total{
+    text-align: center;
+    font-size: 2rem;
+    padding: .5em;
+}

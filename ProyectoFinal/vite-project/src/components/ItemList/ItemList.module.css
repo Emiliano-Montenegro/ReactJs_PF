@@ -1,0 +1,15 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 0;
+    padding: 2em;
+    margin-right: 25px;
+}
+
+
+.titulo-home {
+    font-size: 2rem ;
+    padding: .2em;
+    text-align: center;
+}
